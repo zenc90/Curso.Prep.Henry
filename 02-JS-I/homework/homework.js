@@ -319,8 +319,12 @@ function esVocal(letra){
 
   var vocales = letra.toLowerCase() == 'a' || letra.toLowerCase() == 'e' || letra.toLowerCase() == 'i' || letra.toLowerCase() == 'o' || letra.toLowerCase() == 'u';
 
-  if(vocales){ return "Es vocal"; }
-  if(!vocales){ return "Dato incorrecto"; }
+  if(vocales){ 
+    return "Es vocal"; 
+  }
+  if(!vocales){ 
+    return "Dato incorrecto"; 
+  }
   if(letra.length > 1){
     return "Dato incorrecto";
   }
